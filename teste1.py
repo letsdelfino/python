@@ -5,3 +5,10 @@
 
 print ("Hello World")
 print ("Olá mundo")
+
+print(2 + 2)
+print(5/1)
+
+# expoente
+print(2 ** 3)
+print(3 ** 3)
