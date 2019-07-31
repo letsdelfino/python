@@ -49,3 +49,8 @@ soma = x
 
 print (x==y and x == soma)
 print (x==y or x == soma)
+
+if (x > y):
+    print ("X é maior que Y")
+else:
+    print ("X é menor ou igual a Y")
