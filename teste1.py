@@ -32,3 +32,10 @@ print(var2)
 var3 = True # bool
 
 print(var3)
+
+x = 1
+y = 3
+
+print (x==y)
+print (x<=y)
+print (x >= y)
