@@ -39,3 +39,13 @@ y = 3
 print (x==y)
 print (x<=y)
 print (x >= y)
+
+# operadores lógicos
+
+x = 1
+y = 3
+
+soma = x
+
+print (x==y and x == soma)
+print (x==y or x == soma)
