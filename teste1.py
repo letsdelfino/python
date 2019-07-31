@@ -52,5 +52,7 @@ print (x==y or x == soma)
 
 if (x > y):
     print ("X é maior que Y")
+elif (x == y):
+    print ("X é igual a Y")
 else:
-    print ("X é menor ou igual a Y")
+    print ("X é menor que Y")
