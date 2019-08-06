@@ -17,3 +17,25 @@ texto = arquivo.read()
 print(texto)
 
 arquivo.close()
+
+lista = ["maça", "abacate", "laranja", "melancia"]
+lista2 = [1,2,3,4,5]
+lista3 = ["maça", 0,"abacate",4 , 9.5, "laranja", "melancia"]
+
+print(lista + lista2 + lista3)
+
+lista.append("limão")
+print(lista)
+
+if 2 in lista2:
+    print ("2 está na lista")
+
+del lista[0:2]
+print(lista)
+
+lista4 = [4444.812398, 0, 234234, 4, 3, 1234, 98]
+lista4.sort()
+print(lista4)
+
+lista4.reverse()
+print(lista4)
