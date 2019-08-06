@@ -39,3 +39,12 @@ print(lista4)
 
 lista4.reverse()
 print(lista4)
+
+import random
+
+numero = random.randint(0,10)
+print(numero)
+
+lista5 = [4,10,14]
+numero = random.choice(lista5)
+print(numero)
