@@ -48,3 +48,13 @@ print(numero)
 lista5 = [4,10,14]
 numero = random.choice(lista5)
 print(numero)
+
+#tratamento de exceções
+
+a = 2
+b = 0
+
+try:
+    print(a/b)
+except:
+    print("Divisão por 0 não é definida")
